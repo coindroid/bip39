@@ -128,6 +128,17 @@ libs.bitcoin.networks.peercoin = {
   wif: 0xb7
 };
 
+libs.bitcoin.networks.dalecoin = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x0488b21e,
+    private: 0x0488ade4
+  },
+  pubKeyHash: 0x1f,
+  scriptHash: 0x1e,
+  wif: 0x9e
+};
+
 libs.bitcoin.networks.axe = {
   messagePrefix: 'unused',
   bip32: {
