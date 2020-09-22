@@ -2375,6 +2375,13 @@
             },
         },
         {
+            name: "DALC - Dalecoin",
+            onSelect: function() {
+                network = libs.bitcoin.networks.dalecoin;
+                setHdCoin(76);
+            },
+        },
+        {
             name: "DFC - Defcoin",
             onSelect: function() {
                 network = libs.bitcoin.networks.defcoin;
